@@ -1,4 +1,4 @@
-# [bhidapa.com](https://bhidapa.com)
+# BHIDAPA WordPress theme and plugins
 
 ## Quick Start
 
