@@ -5,7 +5,7 @@
  * Description: Disables category, tag, date and author archives by redirecting to a 404.
  * Version: 1.0
  * Author: BHIDAPA
- * Author URI: https://bhidapa.ba
+ * Author URI: https://bhidapa.com
  */
 
 if (!defined('ABSPATH')) {

@@ -5,7 +5,7 @@
  * Description: Adds a 404 filter redirect from `/%postname%/` to `/%category%/%postname%/`.
  * Version: 1.0
  * Author: BHIDAPA
- * Author URI: https://bhidapa.ba
+ * Author URI: https://bhidapa.com
  */
 
 if (!defined('ABSPATH')) {
