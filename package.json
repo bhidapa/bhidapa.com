@@ -1,4 +1,17 @@
 {
+  "name": "@bhidapa/wordpress",
+  "version": "1.0.0",
+  "description": "BHIDAPA WordPress theme and plugins",
+  "author": "BHIDAPA",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/bhidapa/wordpress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhidapa/wordpress.git"
+  },
+  "homepage": "https://github.com/bhidapa/wordpress#readme",
   "scripts": {
     "start": "wp-env start",
     "stop": "wp-env stop",
