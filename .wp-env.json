@@ -1,6 +1,10 @@
 {
   "core": "WordPress/WordPress#master",
   "phpVersion": "7.4",
-  "plugins": ["WordPress/gutenberg#v12.3.0-rc.1"],
+  "plugins": [
+    "WordPress/gutenberg#v12.3.0-rc.1",
+    "./plugins/disable-archives",
+    "./plugins/redirect-postname-to-category"
+  ],
   "themes": ["./themes/bhidapa"]
 }
