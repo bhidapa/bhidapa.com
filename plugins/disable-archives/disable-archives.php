@@ -9,7 +9,7 @@
  */
 
 if (!defined('ABSPATH')) {
-  exit; // Exit if accessed directly.
+  exit(); // Exit if accessed directly.
 }
 
 add_action('template_redirect', 'disable_wp_archives');

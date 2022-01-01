@@ -16,10 +16,13 @@
     "start": "wp-env start",
     "stop": "wp-env stop",
     "clean": "wp-env clean all",
-    "destroy": "wp-env destroy"
+    "destroy": "wp-env destroy",
+    "format": "prettier ./**/*.php --write"
   },
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
-    "@wordpress/env": "^4.1.3"
+    "@prettier/plugin-php": "^0.17.6",
+    "@wordpress/env": "^4.1.3",
+    "prettier": "^2.5.1"
   }
 }

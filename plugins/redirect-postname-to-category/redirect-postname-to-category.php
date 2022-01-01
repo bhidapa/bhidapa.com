@@ -9,7 +9,7 @@
  */
 
 if (!defined('ABSPATH')) {
-  exit; // Exit if accessed directly.
+  exit(); // Exit if accessed directly.
 }
 
 add_filter('404_template', 'redirect_postname_to_category');
@@ -27,12 +27,18 @@ function redirect_postname_to_category($template)
     return $template;
   }
 
-  if (!$post = get_page_by_path($wp_query->query['category_name'], OBJECT, 'post')) {
+  if (
+    !($post = get_page_by_path(
+      $wp_query->query['category_name'],
+      OBJECT,
+      'post',
+    ))
+  ) {
     return $template;
   }
 
   $permalink = get_permalink($post->ID);
 
   wp_redirect($permalink, 301);
-  exit;
+  exit();
 }
