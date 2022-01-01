@@ -1,0 +1,6 @@
+{
+  "core": "WordPress/WordPress#master",
+  "phpVersion": "7.4",
+  "plugins": ["WordPress/gutenberg#v12.3.0-rc.1"],
+  "themes": ["./themes/bhidapa"]
+}
